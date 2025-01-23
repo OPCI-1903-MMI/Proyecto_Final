@@ -1,0 +1,15 @@
+#marco{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#animacion{
+    width: 130%;
+    height: 130%;
+    background-size: contain;
+    background-position: center;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>KinManga</title>
+    <link rel="shortcut icon" href="img/Icono_KinMangaV2.png">
+
+    <!--Tipografia Titulos - Raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+    <!--Tipografia Cuerpo - Rubik-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <!--Normalizador-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--CSS-->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--CSS Forms-->
+    <link rel="preload" href="css/forms.css" as="style">
+    <link rel="stylesheet" href="css/forms.css">
+</head>
+
+<body>
+<header>
+    <nav>
+        <div class="nav-principal contenedor">
+            <img id="nav-img" src="img/baul_del_manga.png" alt="baul_del_manga">
+            <div class="texto-encima">
+                <a id="tema">KinManga</a>
+                <a href="index.html">Inicio</a>
+                <a href="novelas.html">Novelas</a>
+                <a href="mangas.html">Manga</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <h1>¿Tienes algo que decir?</h1>
+    <h2>Contáctanos</h2>
+    <section class="fr_Contenido">
+        <form class="registro">
+            <fieldset>
+                <legend>Datos del Usuario</legend>
+                <label for="nombre">Nombre </label>
+                <input type="text" id="nombre" name="nombre" class="campos">
+
+                <label for="mail">Email </label>
+                <input type="email" id="mail" name="mail" class="campos">
+
+                <br><br>
+                <label for="asunto"><strong>¿Cuál es su asunto?</strong></label>
+                <select id="asunto" name="asunto">
+                    <option value="">Seleccione una opción</option>
+                    <option value="Solicitudes">Solicitudes</option>
+                    <option value="Quejas">Quejas</option>
+                    <option value="Comentarios">Comentarios</option>
+                    <option value="Otros">Otros</option>
+                </select>
+
+                <br><br>
+                <label for="comentario"></label>
+                <textarea id="comentario" name="comentario" class="campos" cols="100" rows="8"></textarea>
+            </fieldset>
+
+            <br>
+            <input type="submit" name="enviar" class="boton" value="Enviar">
+        </form>
+        <br><br>
+    </section>
+</main>
+
+<footer class="footer">
+    <table>
+        <tr>
+            <td>Somos una página de recopilación y conversión.</td>
+            <td>KinManga ©</td>
+        </tr>
+        <tr>
+            <td>¡Visita las fuentes originales!</td>
+            <td>Todos los derechos reservados</td>
+        </tr>
+    </table>
+</footer>
+
+<!-- Enlace al archivo JavaScript -->
+<script src="js/contacto.js"></script>
+</body>
+
+</html>

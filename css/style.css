@@ -1,0 +1,143 @@
+:root {
+    --principal: #606C5D;
+    --secundario: #FCF8E8;
+    --terciario: #ECB390;
+    --cuaternario: #F1C376;
+    --texto: #1B1A17;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    /* 1rem = 10 px*/
+    background-color: var(--secundario);
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4.8rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.8rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+nav {
+    background-color: var(--principal);
+    width: 100%;
+    height: 10rem;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+#nav-img {
+    width: 70%;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+#nosotros-img {
+    margin-top: 2rem;
+    width: 70%;
+    height: 30rem;
+    filter: brightness(0.8);
+    border-radius: 1rem;
+}
+
+#tema {
+    background-color: #FFD95A;
+    color: #4C3D3D;
+    padding: 1.5rem;
+    border-style: double;
+    border-color: #C07F00;
+    font-weight: bold;
+    border-radius: .5rem;
+}
+
+.nav-principal a:not(:first-child) {
+    background-color: #FCFFE7;
+    border-style: solid;
+    border-color: #EDCDBB;
+    color: #61481C;
+    padding: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: .5rem;
+}
+
+.nav-principal a:hover:not(:first-child) {
+    background-color: var(--terciario);
+    color: #C58940;
+    padding: 1rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.texto-encima {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.texto-encima-centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenedor {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(247, 238, 238);
+}
+
+.contenido {
+    margin: 2% 5% 1.65% 15%;
+    background-color: #DAB88B;
+    color: var(--texto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .5rem;
+    height: 35vh;
+    width: 64%;
+    padding: 0rem 5rem;
+}
+
+.footer table {
+    background-color: var(--principal);
+    color: white;
+    padding: 2rem 0rem 2rem 0rem;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.footer td {
+    padding: 0.5rem 4rem;
+}

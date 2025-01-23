@@ -1,0 +1,52 @@
+:root {
+    --principal: #606C5D;
+    --secundario: #FCF8E8;
+    --terciario: #ECB390;
+    --cuaternario: #F1C376;
+    --texto: #1B1A17;
+}
+
+.tb_Contenido {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tb_Contenido td {
+    padding: 5rem;
+}
+
+.tb_Contenido img {
+    height: 40rem;
+    width: 25rem;
+}
+
+.img-Contenedor {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.titulo {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+}
+
+.img-Contenedor:hover .overlay {
+    opacity: 1;
+}

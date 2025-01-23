@@ -1,0 +1,42 @@
+:root {
+    --principal: #606C5D;
+    --secundario: #FCF8E8;
+    --terciario: #ECB390;
+    --cuaternario: #F1C376;
+    --texto: #1B1A17;
+}
+
+textarea {
+    overflow: scroll;
+    resize: none;
+}
+
+.fr_Contenido {
+    margin: 5% 0% 4.4% 15%;
+    color: var(--texto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .5rem;
+    height: 35vh;
+    width: 64%;
+    padding: 3rem;
+    border-radius: 5px;
+    color: rgb(71, 71, 71);
+}
+
+.registro{
+    background-color:#DAB88B;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    color: rgb(71, 71, 71);
+}
+
+.registro .boton{
+    width: 25%;
+    padding: 6px;
+    color: black;
+    margin: auto;
+    font-size: 18px;
+}
